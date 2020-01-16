@@ -1,0 +1,70 @@
+.Gen {
+    margin : center;
+}
+
+.Fieldarea {
+    margin : center;
+    box-sizing: border-box;
+    border-color: mediumseagreen;
+    text-emphasis-color:pink;
+
+}
+
+.ButtonC {
+    border:0;
+    padding: 8px 20px;
+    margin:0 2px;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+}
+
+.ButtonC:active {
+    outline: none;
+}
+
+.info{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.InfoKey {
+   color: rgb(41, 29, 216);
+   border-bottom: solid 15px rgba(255,255,255,0.06);
+   font-weight: 400;
+}
+
+.InfoKey:last-child {
+    border: 0;
+}
+
+.nfoValue {
+    color:red;
+    font-weight: 200;
+}
+
+.Cryptoform {
+    align-self: center;
+    text-decoration-color: limegreen;
+    color: rgb(35, 131, 99);
+    border: thin solid red;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+}
+
+.formtext {
+    position: relative;
+    top: -48px;
+    background: white;
+    padding: 7px;
+    width: 57px;
+    color: red;
+  }

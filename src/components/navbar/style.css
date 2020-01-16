@@ -1,0 +1,49 @@
+.navbar {
+    padding: 10px 0;
+    overflow: hidden;
+    background: #566;
+    position: relative;
+    border-bottom: 1px solid #000
+}
+
+.navbar .logo {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold
+}
+
+
+.navbar .ul-list {
+    width: 40%;
+    float: left;
+    list-style: none;
+    padding : 0;
+}
+
+.navbar .ul-list .list-item {
+    display: inline-block;
+}
+
+.navbar .ul-list .list-item a {
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar .ul-list .list-item a:hover {
+    color: #eb5424
+}
+
+.img {
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+    border-style: none; 
+  }
