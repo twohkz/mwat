@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.css'
+import './style.css';
+import ProgressLine from '../progressbar/index.js';
 
 
 const  Profile = (props) => {
@@ -31,11 +32,11 @@ const  Profile = (props) => {
                         </li>
                         <li class="profile-item">
                             <span>All Time High</span>
-                            $0,090036 USD
+                            $0.090036 USD
                         </li>
                         <li class="profile-item">
                             <span>All Time Low</span>
-                            $0,007131 USD
+                            $0.007131 USD
                         </li>
                         <li class="profile-item">
                             <span>Platform</span>
@@ -53,28 +54,42 @@ const  Profile = (props) => {
                     <p class="skills-desc">
                     Restart Energy MWAT (MWAT) is a cryptocurrency token and operates on the Ethereum platform. Restart Energy MWAT has a current supply of 500,000,000 with 452,750,000 in circulation. 
                     </p>
-                    <div class="bar">
-                        <span class="title">Staking</span>
-                        <span class="perc">100%</span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
+                    <div>
+                    <ProgressLine
+                                label="Staking"
+                                backgroundColor="lightgrey"
+                                visualParts={[
+                                {
+                                    percentage: "80%",
+                                    color: "tomato"
+                                }
+                                ]}
+                            />
                     </div>
-                    
-                    <div class="bar">
-                        <span class="title">Exchange Listing</span>
-                        <span class="perc">40%</span>
-                        <div class="parent">
-                            <span class="sp2"></span>
-                        </div>
+                    <div>
+                            <ProgressLine
+                                label="Exchange Listining"
+                                backgroundColor="lightgrey"
+                                visualParts={[
+                                {
+                                    percentage: "45%",
+                                    color: "tomato"
+                                }
+                                ]}
+                            />
                     </div>
-                    
-                    <div class="bar">
-                        <span class="title">Roadmap</span>
-                        <span class="perc">60%</span>
-                        <div class="parent">
-                            <span class="sp3"></span>
-                        </div>
+
+                    <div>
+                       <ProgressLine
+                                label="Roadmap"
+                                backgroundColor="lightgrey"
+                                visualParts={[
+                                {
+                                    percentage: "33%",
+                                    color: "tomato"
+                                }
+                                ]}
+                            /> 
                     </div>
                 </div>
                 

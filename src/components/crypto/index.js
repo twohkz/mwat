@@ -20,7 +20,8 @@ class Crypto extends Component {
         super(props);
         this.state = { MwatAmout: 1,
                     priceUSD : 2,
-                    Result : 1 
+                    Result : 1,
+                    KWTAmount : 0.11, 
                 };
         
 
@@ -55,6 +56,7 @@ class Crypto extends Component {
               MwatAmout: newNum1,
               priceUSD: newPrice,
               Result: newNum1 * newPrice,
+              KWTAmount : newNum1 * 0.11,
             }); 
         }
     }
@@ -65,6 +67,13 @@ class Crypto extends Component {
     }
 
     componentDidMount(){
+      var newPrice = this.props.price;
+      this.setState({
+          MwatAmout: 1,
+          priceUSD: newPrice,
+          Result: 1 * newPrice,
+          KWTAmount : 1 * 0.11,
+        }); 
         
           console.log('Prix USD : ',this.state.priceUSD);
       }
@@ -80,23 +89,27 @@ class Crypto extends Component {
       return (
 
                     <div className="Cryptoform">
-                         {this.getCrypto
-                         }
-                        response : 
-                        the crypto Component
                     
+                    <div className="textstaking">
+                    The Energy Community Fund represents a pool of KWT (in the amount of 5% of the total energy produced in the RED platform) which will be distributed to MWAT holders based on their ratio between their amount of MWAT and the total amount of MWAT staked
+                    </div>
+                        
                         <form className="Gen" onSubmit={this.getCrypto}>
-                        <span className="formtext">&#x3C;Form /&#x3E;</span>
-                            <p className="Fieldarea">MWAT Price <input type="float" name="price" placeholder={this.props.price} value={this.props.price}  /></p>
-                            <p className="Fieldarea">MWAT Amount <input type="number" name="amout"   placeholder="Enter MWAT Amount.."   onChange={this._changeAmout}/></p>
-                            <p className="Fieldarea">Total <input type="float" value={this.state.Result}></input></p>
+                        
+                            <p className="Fieldarea">MWAT Price <input className="inputzone" type="float" name="price" placeholder={this.props.price} value={this.props.price}  /></p>
+                            <p className="Fieldarea">MWAT Amount <input className="inputzone"  type="number" name="amout"   placeholder="Enter MWAT Amount.."   onChange={this._changeAmout}/></p>
+                            <p className="Fieldarea">Total (USD)<input className="inputzone"  type="float" value={this.state.Result}></input></p>
+                            <div><p className="Fieldarea">KWT Generated<input className="inputzone"  type="float" value={this.state.KWTAmount}></input></p></div>
                             <button className="ButtonC">Calculate</button>
                         </form>
 
 
                         
+                        
 
                     </div>
+                    
+      
 
              )
         }

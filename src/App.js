@@ -14,13 +14,13 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-        da: 'Jordan Belfort',
-        tempreature: 'temp99996',
-        city : 'Biz',
-        rank : 'initial',
-        humidity : '',
-        pressure: '',
-        description : '',
+        da: 'Loading...',
+        tempreature: 'Loading...',
+        city : 'Loading...',
+        rank : 'Loading...',
+        humidity : 'Loading...',
+        pressure: 'Loading...',
+        description : 'Loading...',
         error : '',
         
     }
@@ -52,8 +52,8 @@ class App extends Component {
                 
 
     this.setState ({
-        tempreature: 'AAAA',
-        city : 'Biz',
+        tempreature: 'Loading...',
+        city : 'Loading...',
         rank : response.data['MWAT'].cmc_rank,
         humidity : response.data['MWAT'].id,
         pressure: response.data['MWAT'].name,
