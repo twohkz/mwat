@@ -6,6 +6,7 @@ import Crypto from './components/crypto/index.js';
 import Weather from './components/crypto/Weather.js';
 import Profile from './components/Profile/index.js';
 import {request} from 'request-promise';
+import Contact from './components/Contact/index.js';
 
 
 
@@ -93,7 +94,7 @@ class App extends Component {
      
       <BrowserRouter>
           <Navbar />
-          
+          <Route exact path='/' >
           <Crypto price={this.state.error}/>
 
           <Profile rank={this.state.rank} price={this.state.error}/>
@@ -106,6 +107,8 @@ class App extends Component {
                                 description={this.state.description}
                                 error={this.state.error}
                         />
+            </Route>
+           <Route path='/Contact' component={Contact} />
 
 
       </BrowserRouter>

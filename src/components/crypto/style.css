@@ -3,7 +3,7 @@
 }
 
 .Fieldarea {
-    width: 150px;
+    width: 250px;
     margin : center;
     box-sizing: border-box;
     border-color: mediumseagreen;
@@ -69,6 +69,9 @@
     width: 57px;
     color: red;
     
+  }
+  td{
+    width: 200px;
   }
 
   .inputzone {
