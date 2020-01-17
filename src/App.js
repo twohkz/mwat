@@ -4,6 +4,7 @@ import Navbar from './components/navbar/index.js';
 import {BrowserRouter , Route } from 'react-router-dom';
 import Crypto from './components/crypto/index.js';
 import Weather from './components/crypto/Weather.js';
+import Profile from './components/Profile/index.js';
 import {request} from 'request-promise';
 
 
@@ -95,7 +96,7 @@ class App extends Component {
           
           <Crypto price={this.state.error}/>
 
-
+          <Profile rank={this.state.rank} price={this.state.error}/>
           <Weather 
                                 tempreature={this.state.tempreature}
                                 city={this.state.city}
