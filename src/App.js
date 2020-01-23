@@ -19,15 +19,13 @@ class App extends Component {
   render() {
     return (
 
-     
+      
       <BrowserRouter>
-          <Navbar />
-          <Home/>
+          
           <Route exact path='/' default component={Home} />
-            
           <Route path='/BuyMwat' component={Kucoin}/>
-           <Route path='/Contact' component={Contact} />
-
+          <Route path='/Contact' component={Contact} />
+          
 
       </BrowserRouter>
       
