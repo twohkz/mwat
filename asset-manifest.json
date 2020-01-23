@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mwat/static/css/main.b7ff8af3.chunk.css",
-    "main.js": "/mwat/static/js/main.ee068706.chunk.js",
-    "main.js.map": "/mwat/static/js/main.ee068706.chunk.js.map",
+    "main.js": "/mwat/static/js/main.aec55b0a.chunk.js",
+    "main.js.map": "/mwat/static/js/main.aec55b0a.chunk.js.map",
     "runtime-main.js": "/mwat/static/js/runtime-main.36eac6b0.js",
     "runtime-main.js.map": "/mwat/static/js/runtime-main.36eac6b0.js.map",
     "static/js/2.f58182c1.chunk.js": "/mwat/static/js/2.f58182c1.chunk.js",
     "static/js/2.f58182c1.chunk.js.map": "/mwat/static/js/2.f58182c1.chunk.js.map",
     "index.html": "/mwat/index.html",
-    "precache-manifest.4949b9e6c806b22b53c1c95bc22c5f96.js": "/mwat/precache-manifest.4949b9e6c806b22b53c1c95bc22c5f96.js",
+    "precache-manifest.ed0c3a8f2119ef8168ea1c5ab2fc6f24.js": "/mwat/precache-manifest.ed0c3a8f2119ef8168ea1c5ab2fc6f24.js",
     "service-worker.js": "/mwat/service-worker.js",
     "static/css/main.b7ff8af3.chunk.css.map": "/mwat/static/css/main.b7ff8af3.chunk.css.map",
     "static/js/2.f58182c1.chunk.js.LICENSE": "/mwat/static/js/2.f58182c1.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.36eac6b0.js",
     "static/js/2.f58182c1.chunk.js",
     "static/css/main.b7ff8af3.chunk.css",
-    "static/js/main.ee068706.chunk.js"
+    "static/js/main.aec55b0a.chunk.js"
   ]
 }
