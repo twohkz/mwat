@@ -1,0 +1,13 @@
+.drop .kucoinimg {
+height:500px;
+width:600px;
+margin-right:0px;
+}
+
+.drop .kucoinimg:hover {
+    opacity: 10;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #eb5424;
+}

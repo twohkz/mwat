@@ -19,7 +19,7 @@ const Navbar = () => {
                 
                 <ul className="ul-list">
                     <li className="list-item"><Link to="/">Home</Link></li>
-                    <li className="list-item"><a href="#">Work</a></li>
+                    <li className="list-item"><Link to="/BuyMwat">Buy it</Link></li>
                     <li className="list-item"><a href="#">Portfolio</a></li>
                     <li className="list-item"><a href="#">Resume</a></li>
                     <li className="list-item"><Link to="/Contact">Contact</Link></li>
