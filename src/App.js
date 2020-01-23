@@ -22,7 +22,7 @@ class App extends Component {
       
       <BrowserRouter>
           <Navbar />
-          <Route exact path='/' component={Home} />
+          <Route exact strict path='/' component={Home} />
           <Route path='/BuyMwat' component={Kucoin}/>
           <Route path='/Contact' component={Contact} />
           
