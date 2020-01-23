@@ -22,6 +22,7 @@ class App extends Component {
      
       <BrowserRouter>
           <Navbar />
+          <Home/>
           <Route exact path='/' default component={Home} />
             
           <Route path='/BuyMwat' component={Kucoin}/>
