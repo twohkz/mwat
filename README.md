@@ -1,4 +1,4 @@
-![Restart Energy](https://restartenergy.io/new-index/img/logo.png)
+![Restart Energy](https://assets.coingecko.com/coins/images/3140/small/re.jpg?1547037554)
 
 React Js project fetching data from coinmarketcap https://twohkz.github.io/mwat/ click home
 
