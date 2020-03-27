@@ -1,9 +1,7 @@
-![Restart Energy](https://assets.coingecko.com/coins/images/3140/small/re.jpg?1547037554)
+![Restart Energy](https://www.coinist.io/wp-content/uploads/2017/12/Restart-Energy.png)
 
-React Js project fetching data from coinmarketcap https://twohkz.github.io/mwat/ click home
+[MWAT](https://twohkz.github.io/mwat/) React Js project fetching data from coinmarketcap https://twohkz.github.io/mwat/ click home
 
-https://twohkz.github.io/mwat/ 
-[MWAT](https://twohkz.github.io/mwat/)
 
 Restart Energy MWAT (MWAT) is a cryptocurrency token and operates on the Ethereum platform. Restart Energy MWAT has a current supply of 500,000,000 with 452,750,000 in circulation. The last known price of Restart Energy MWAT is $0.002190 USD and is down -0.91% over the last 24 hours.
 
